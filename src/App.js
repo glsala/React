@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import HelloWorld  from './components/HelloWorld';
+import List from './components/List'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       {name}
       <HelloWorld />
+      <List />
     </div>
   );
 }
